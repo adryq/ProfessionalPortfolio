@@ -8,27 +8,31 @@ html{
 }
 
 section {
-    height: 500px;
+    height: 400px;
     background-color: lightpink;
     border: solid white 1px;
 
 }
 
+.logo{
+    height: 100px ;
+    width: 100px;
+    margin-left: 30px;
+}
 .hero {
-    background-color: white;
-    height: 50vh;
+    background-color: #fafafa;
+    height: 30vh;
     color: black;
     font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
 }
-
 
 nav {
     display: flex;
     justify-content: space-between;
 
 }
+
 
 ul {
     display: flex;
@@ -41,6 +45,54 @@ ul {
 li {
     
     text-decoration: none;
+}
+
+li:hover{
+    color: #ce954b;
+}
+
+h1{
+    font-size: 40px;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+p{
+    margin-left: 20px;
+    font-size: 20px;   
+}
+
+.profilepic {
+    margin-right: 20%;
+    height: 200px;
+    width: 200px;
+}
+
+.text-area {
+    display: flex;
+    height: 50%;
+    margin-left: 5%;
+    justify-content:space-between;
+}
+
+.text {
+    margin-bottom: 90px;
+
+}
+
+#aboutme {
+    height: 200px;
+    background-color: lightpink;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 10px;
+    text-align: left;
 }
 
 footer {
